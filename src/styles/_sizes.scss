@@ -1,0 +1,19 @@
+@use "@angular/material" as mat;
+
+$densities: 1, 2, 3, 4, 5;
+
+@mixin sizes() {
+  @each $density in $densities {
+    .density-#{$density} {
+      @include mat.theme(
+        (
+          density: -$density,
+        )
+      );
+
+      mat-slide-toggle button {
+        transform: scale(1 - calc($density / 10));
+      }
+    }
+  }
+}

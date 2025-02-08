@@ -1,0 +1,13 @@
+@use '@angular/material' as mat;
+
+[fitInkBarToContent],
+[ng-reflect-fit-ink-bar-to-content='true'] {
+  > .mat-mdc-tab-header {
+    @include mat.tabs-overrides(
+      (
+        active-indicator-shape: 3px 3px 0 0,
+        active-indicator-height: 3px,
+      )
+    );
+  }
+}

@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+@use "sass:meta";
+@use '@angular/material' as mat;
+@use './styles/tailwind';
+@use "./styles/tabs";
+@use "./styles/sizes";
+
+$heading-font-family: Poppins, sans-serif;
+$regular-font-family: InterVariable, sans-serif;
+
+@include sizes.sizes();
+
+// #region: Setting @angular/material custom theme
+html {
+  color-scheme: light;
+  @include mat.theme((
+    color: (
+      primary: mat.$azure-palette,
+      tertiary: mat.$blue-palette,
+    ),
+    typography: (
+      plain-family: #{meta.inspect($regular-font-family)},
+      brand-family: #{meta.inspect($heading-font-family)},
+    ),
+    density: 0
+  ));
+}
+// #endregion
+
+// #region: Setting @angular/material dark theme
+.dark-theme {
+  color-scheme: dark;
+}
+// #endregion
