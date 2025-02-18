@@ -5,7 +5,7 @@
 @use "./styles/sizes";
 
 $heading-font-family: Poppins, sans-serif;
-$regular-font-family: InterVariable, sans-serif;
+$regular-font-family: Inter, sans-serif;
 
 @include sizes.sizes();
 

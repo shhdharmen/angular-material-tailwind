@@ -20,6 +20,7 @@
     "@angular/platform-browser": "^19.1.0",
     "@angular/platform-browser-dynamic": "^19.1.0",
     "@angular/router": "^19.1.0",
+    "@ngxpert/avvvatars": "^2.0.2",
     "@tailwindcss/postcss": "^4.0.4",
     "postcss": "^8.5.1",
     "rxjs": "~7.8.0",
