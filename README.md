@@ -14,9 +14,12 @@ npm start
 ### Features
 
 - Tailwind CSS extended with Angular Material
+- Fixes for Tailwind CSS with Angular Material
 - Inter and Poppins fonts
 - Dark theme
 - Avatars with [@ngxpert/avvvatars](https://ngxpert.github.io/avvvatars/)
+- Material Symbols
+- M3 Tab styles
 
 ## Setting in an existing project
 
