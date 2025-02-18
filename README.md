@@ -1,6 +1,6 @@
 # Angular Material & Tailwind CSS
 
-This project is created to serve a boilerplate to get started with `@angular/material` and Tailwind CSS.
+This project is created to serve a boilerplate to get started with `@angular/material` and Tailwind CSS. Mainly focused for the developers to use codes from [Angular Material Dev UI](https://ui.angular-material.dev/).
 
 ## Get started
 
@@ -10,6 +10,13 @@ cd angular-material-tailwind
 npm i
 npm start
 ```
+
+### Features
+
+- Tailwind CSS extended with Angular Material
+- Inter and Poppins fonts
+- Dark theme
+- Avatars with [@ngxpert/avvvatars](https://ngxpert.github.io/avvvatars/)
 
 ## Setting in an existing project
 
