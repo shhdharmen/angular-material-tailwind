@@ -1,0 +1,9 @@
+@use "@angular/material" as mat;
+
+html {
+  @include mat.dialog-overrides(
+    (
+      container-color: var(--mat-sys-surface-container-high),
+    )
+  );
+}

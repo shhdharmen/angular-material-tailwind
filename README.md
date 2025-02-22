@@ -19,7 +19,7 @@ npm start
 - Dark theme
 - Avatars with [@ngxpert/avvvatars](https://ngxpert.github.io/avvvatars/)
 - Material Symbols
-- M3 Tab styles
+- M3 Tab and Dialogs styles
 
 ## Setting in an existing project
 

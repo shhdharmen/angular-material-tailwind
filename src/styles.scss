@@ -2,6 +2,7 @@
 @use '@angular/material' as mat;
 @use './styles/tailwind';
 @use "./styles/tabs";
+@use "./styles/dialogs";
 @use "./styles/sizes";
 
 $heading-font-family: Poppins, sans-serif;
