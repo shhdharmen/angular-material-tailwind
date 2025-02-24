@@ -7,3 +7,17 @@ html {
     )
   );
 }
+
+.full-screen-dialog {
+  @media (width < 40rem) {
+    @include mat.dialog-overrides(
+      (
+        container-shape: 0,
+      )
+    );
+    .mat-mdc-dialog-content {
+      // device height - header height -actions height
+      max-height: calc(100dvh - 68px);
+    }
+  }
+}
